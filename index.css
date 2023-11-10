@@ -42,7 +42,7 @@ body {
     bottom: 30px;
   }
 
-  .main-menu {
+  .menu {
     margin: 50px 0 0 20px;
     font-size: 1.3rem;
 
@@ -51,12 +51,9 @@ body {
       display: flex;
       gap: 10px;
     }
-
-    > ul > li > img {
-      max-width: 20px;
-    }
   }
 
+  .main-menu,
   .settings-menu {
     margin: 50px 0 0 20px;
     font-size: 1.3rem;
@@ -73,7 +70,7 @@ body {
   }
 }
 
-.header {
+.header-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -151,5 +148,38 @@ body {
       color: #cbcbd4;
       font-weight: bold;
     }
+  }
+}
+
+.main-container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  .projects-container {
+    grid-column: 1 / 3;
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 100%));
+    grid-template-rows: 50px repeat(3, minmax(300px, 100%));
+  }
+
+  .projects-title {
+    grid-column: 1 / 3;
+  }
+
+  .announcements-container {
+    margin: 0 20px;
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-rows: 50px repeat(3, 1fr);
+  }
+
+  .trending-container {
+    margin: 0 20px;
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
