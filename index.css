@@ -185,6 +185,21 @@ body {
     box-shadow: 0 15px 18px 0 rgba(31, 38, 135, 0.37);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
+    padding: 20px;
+
+    .card-text {
+      margin: 20px 0 90px;
+    }
+
+    .card-text > p {
+      margin-top: 10px;
+    }
+
+    .card-icons {
+      display: flex;
+      justify-content: end;
+      gap: 15px;
+    }
   }
 
   .announcements-container {
