@@ -241,6 +241,7 @@ body {
     grid-row: 2 / -1;
     display: grid;
     grid-template-rows: 50px repeat(4, 80px);
+    align-items: center;
 
     > .trending-card {
       display: flex;
