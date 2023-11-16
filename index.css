@@ -194,20 +194,20 @@ body {
         > h4 {
           font-weight: 600;
         }
+
+        > p {
+          margin-top: 10px;
+        }
       }
-    }
 
-    .card-text > p {
-      margin-top: 10px;
-    }
-
-    .card-icons {
-      display: flex;
-      justify-content: end;
-      gap: 15px;
-      position: absolute;
-      right: 20px;
-      bottom: 20px;
+      .card-icons {
+        display: flex;
+        justify-content: end;
+        gap: 15px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+      }
     }
   }
 
