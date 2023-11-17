@@ -23,5 +23,3 @@ What did you learn while building this project? What challenges did you face and
 ...
 
 ## Discord Feedback
-
-https://coolors.co/274690-8aa8a1-cbcbd4-d1b490-ee7b30
