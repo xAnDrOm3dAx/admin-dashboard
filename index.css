@@ -159,8 +159,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 30px repeat(3, 1fr);
+    grid-auto-rows: 1fr;
     grid-gap: 30px;
     justify-content: start;
+    grid-auto-flow: row;
 
     .projects-title {
       grid-column: 1 / 4;
