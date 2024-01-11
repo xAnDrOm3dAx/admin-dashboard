@@ -107,8 +107,9 @@ body {
   .profile {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     gap: 18px;
+    margin-right: 2rem;
 
     .notification-icon {
       max-width: 25px;
@@ -128,13 +129,11 @@ body {
   }
 
   .buttons {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    width: 300px;
-    justify-content: center;
+    display: flex;
+    justify-content: right;
     align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
 
     & button {
       border-radius: 20px;
@@ -142,6 +141,7 @@ body {
       border-style: none;
       background-color: #274690;
       color: #cbcbd4;
+      width: 120px;
     }
   }
 }
